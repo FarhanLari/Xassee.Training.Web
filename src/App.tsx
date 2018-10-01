@@ -100,7 +100,7 @@ class App extends React.Component {
                       <div className="center">
                           <FeedbackForm
                               fields={fields}
-                              action="https://devopsherotraining-ci-api-crm.azurewebsites.net/Feedback"
+                              action="#{apiurl}#"
                               render={ this.renderForm }
                           />
                       </div>
